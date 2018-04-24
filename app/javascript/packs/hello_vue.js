@@ -39,7 +39,7 @@ import '../style.css'
 document.addEventListener('DOMContentLoaded', () => {
   const app = new Vue({
     render: h => h(App)
-  }).$mount('#hello')
+  }).$mount('#root')
 })
 
 //
