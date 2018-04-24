@@ -38,12 +38,8 @@ import '../style.css'
 
 document.addEventListener('DOMContentLoaded', () => {
   const app = new Vue({
-    el: '#hello',
-    data: {
-      message: "Can you say hello?"
-    },
-    components: { App }
-  })
+    render: h => h(App)
+  }).$mount('#hello')
 })
 
 //
