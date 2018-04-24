@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HerokuWebpacker</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= javascript_pack_tag 'hello_vue' %>
+    <%= stylesheet_pack_tag 'hello_vue' %>
+  </head>
+
+  <body>
+     <div id='hello'>
+      {{message}}
+      <app></app>
+    </div>
+  </body>
+</html>
