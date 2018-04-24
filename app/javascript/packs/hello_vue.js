@@ -32,7 +32,6 @@
 //   <app></app>
 // </div>
 
-
 import Vue from 'vue/dist/vue.esm'
 import App from '../app.vue'
 import '../style.css'
@@ -46,6 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
     components: { App }
   })
 })
+
 //
 //
 //

@@ -1,24 +1,9 @@
-# README
+# Heroku Webpacker Vue
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### Created with
 
-Things you may want to cover:
+```zsh
+rails new app --skip-coffee --skip-sprockets --skip-turbolinks --webpack=vue --database=postgresql  -T
+```
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[https://vue-webpacker-app.herokuapp.com](https://vue-webpacker-app.herokuapp.com)
